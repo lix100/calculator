@@ -1,0 +1,109 @@
+body{
+	background-color: #21262d;
+	
+}
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.wrap{
+	width:400px;
+	margin: auto;
+	height: 520px;
+	background: #21262d;
+	border-collapse: separate;
+	padding:15px;
+	border-radius: 10px;
+}
+
+#top1{
+	background-color:#8c959fa8;
+}
+#top1:hover{
+	background-color:#484f58;
+}
+#top2{
+	background-color:#8c959fa8;
+}
+#top2:hover{
+	background-color:#484f58;
+}
+#top3{
+	background-color:#8c959fa8;
+}
+#top3:hover{
+	background-color:#484f58;
+}
+#top4{
+	background-color:#8c959fa8;
+}
+#top4:hover{
+	background-color:#484f58;
+}
+#rt1{
+	background-color:#8c959fa8;
+}
+#rt1:hover{
+	background-color:#484f58;
+}	
+#rt2{
+	background-color:#8c959fa8;
+}
+#rt2:hover{
+	background-color:#484f58;
+}
+#rt3{
+	background-color:#8c959fa8;
+}	
+#rt3:hover{
+	background-color:#484f58;
+}
+#rt4{
+	background-color:#8c959fa8;
+}	
+#rt4:hover{
+	background-color:#484f58;
+}	
+input[type = text]{
+	width:100%;
+	padding:10px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+	border-radius: 2px;
+	background-color:#21262d;
+	color: azure;
+	border-radius: 10px;
+	
+	border-style: solid;
+	
+}
+input[type = text]:hover{
+	background-color: #30363d;
+}
+input[type  = button]{
+	width: 89px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	
+	padding:10px;
+	background-color:#30363d;
+	color:#f6f8fa;
+	border-top: azure;
+	border-left: azure;
+	border-radius: 10px;
+	
+}
+input[type  = button]:hover{
+	background-color:#484f58;
+}
+#clr{
+	width: 100%;
+	background-color:#58a6ff;
+	color: black;
+}
+#clr:hover{
+	background-color:#79c0ff;
+}

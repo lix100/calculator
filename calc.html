@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculator</title>
+		<link rel="stylesheet" type="text/css" href="calstyle.css">
+		<script src="calcscripts.js"></script>
+		
+		
+	</head>
+	
+	<body>
+		<div class="wrap">
+			<form name="cal" autocomplete="off">
+				<input type="text" autocomplete="false" onkeypress="return event.charCode >= 48
+				&& event.charCode <= 57" type="text" name="display">
+				<br><br>
+				<input type="button" id="top1"  value="(" onclick="cal.display.value+='('">
+				<input type="button" id="top2" value=")" onclick="cal.display.value+=')'">
+				<input type="button" id="top3" value="DEL" onclick="backspace(this.form.display)">
+				<input type="button" id="top4" value="%" onclick="cal.display.value+='%'">
+				<br><br>
+				<input type="button" value="7" onclick="cal.display.value+='7'">
+				<input type="button" value="8" onclick="cal.display.value+='8'">
+				<input type="button" value="9" onclick="cal.display.value+='9'">
+				<input type="button" id="rt1"value="/" onclick="cal.display.value+='/'">
+				<br><br>
+				<input type="button" value="4" onclick="cal.display.value+='4'">
+				<input type="button" value="5" onclick="cal.display.value+='5'">
+				<input type="button" value="6" onclick="cal.display.value+='6'">
+				<input type="button" id="rt2" value="*" onclick="cal.display.value+='*'">
+				<br><br>
+				<input type="button" value="1" onclick="cal.display.value+='1'">
+				<input type="button" value="2" onclick="cal.display.value+='2'">
+				<input type="button" value="3" onclick="cal.display.value+='3'">
+				<input type="button" id="rt3" value="-" onclick="cal.display.value+='-'">
+				<br><br>
+				<input type="button" value="." onclick="cal.display.value+='.'">
+				<input type="button" value="0" onclick="cal.display.value+='0'">
+				<input type="button" value="=" onclick="cal.display.value= eval(cal.display.value)">
+				<input type="button" id="rt4" value="+" onclick="cal.display.value+='+'">
+				<br><br>
+			
+				<input type="button" value="CLEAR" onclick="cal.display.value= ''" id="clr">
+			</form>
+		</div>
+	</body>
+</html>
